@@ -9,14 +9,14 @@ Pod::Spec.new do |s|
                      This popover can be used to leave subtle hints about your UI and
                      provide fun looking onboarding popups.
                     DESC
-  s.homepage      = "https://github.com/andreamazz/AMPopTip"
+  s.homepage      = "https://github.com/windstreammike/AMPopTip"
   s.license       = { :type => 'MIT', :file => 'LICENSE' }
   s.author        = { "Andrea Mazzini" => "andrea.mazzini@gmail.com" }
-  s.source        = { :git => "https://github.com/andreamazz/AMPopTip.git", :tag => s.version }
+  s.source        = { :git => "https://github.com/windstreammike/AMPopTip.git", :tag => s.version }
   s.platform      = :ios, '11.0'
   s.swift_version = '5.0'
   s.source_files  = 'Source/*.swift'
   s.requires_arc  = true
   s.weak_framework = 'SwiftUI'
-  s.social_media_url = 'https://twitter.com/theandreamazz'
+  s.social_media_url = 'https://github.com/windstreammike'
 end
